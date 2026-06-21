@@ -1,8 +1,9 @@
+import "../styles/Footer.css";
+
 function Footer() {
   return (
-    <footer>
-      <hr />
-      <h3>© 2026 SpareHub</h3>
+    <footer className="footer">
+      © 2026 SpareHub. All rights reserved.
     </footer>
   );
 }

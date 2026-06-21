@@ -1,14 +1,22 @@
+import "../styles/Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
-      <h2>SpareHub</h2>
+    <nav className="navbar">
 
-      <ul>
+      <div className="logo">
+        SpareHub
+      </div>
+
+      <ul className="nav-links">
         <li>Home</li>
         <li>Products</li>
+        <li>Brands</li>
+        <li>About</li>
         <li>Cart</li>
         <li>Login</li>
       </ul>
+
     </nav>
   );
 }

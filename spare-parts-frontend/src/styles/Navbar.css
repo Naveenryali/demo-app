@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0f172a;
+    color:white;
+    padding:20px 80px;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#f97316;
+}
+
+.nav-links{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+
+.nav-links li{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.nav-links li:hover{
+    color:#f97316;
+}
