@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Brands from "./pages/Brands";
 import About from "./pages/About";
+import Checkout from "./pages/Checkout";
 
 function App() {
 
@@ -31,6 +32,11 @@ function App() {
         <Route path="/brands" element={<Brands />} />
 
         <Route path="/about" element={<About />} />
+        <Route
+    path="/checkout"
+    element={<Checkout />}
+/>
+        
 
       </Routes>
 

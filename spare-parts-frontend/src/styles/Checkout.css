@@ -1,0 +1,22 @@
+.checkout-container{
+
+    width:600px;
+
+    margin:auto;
+
+    padding:50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.checkout-container input,
+.checkout-container textarea{
+
+    padding:15px;
+
+}
