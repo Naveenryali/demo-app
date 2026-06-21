@@ -2,7 +2,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/Home.css";
 import CategoryCard from "../components/CategoryCard";
-
+import ProductCard from "../components/ProductCard";
+import products from "../data/products";
 function Home() {
 
     return (
@@ -60,6 +61,25 @@ function Home() {
       icon="🌾"
       title="Agricultural Parts"
     />
+
+  </div>
+
+</section>
+<section className="featured-products">
+
+  <h1>Featured Products</h1>
+
+  <div className="product-container">
+
+    {
+      products.map((product)=>(
+        <ProductCard
+          key={product.id}
+          name={product.name}
+          price={product.price}
+        />
+      ))
+    }
 
   </div>
 
