@@ -33,3 +33,11 @@
 .nav-links li:hover{
     color:#f97316;
 }
+.nav-links a{
+    text-decoration:none;
+    color:white;
+}
+
+.nav-links a:hover{
+    color:#f97316;
+}
